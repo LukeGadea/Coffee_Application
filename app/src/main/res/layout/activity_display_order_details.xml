@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DisplayOrderDetails"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="40dp"
+        android:text="Your Order Details"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/displayText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="40dp"
+        android:textSize="10sp"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/save"
+        android:layout_width="300px"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:onClick="addButtonClicked"
+        android:text="Save Data"
+        android:textSize="12dp"/>
+
+    <Button
+        android:id="@+id/email"
+        android:layout_width="300px"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:onClick="emailOrder"
+        android:text="Email Order"
+        android:textSize="12dp"/>
+
+    <Button
+        android:id="@+id/sales"
+        android:layout_width="300px"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:onClick="salesReport"
+        android:text="Sales Report"
+        android:textSize="12dp"/>
+</LinearLayout>
